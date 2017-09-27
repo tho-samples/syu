@@ -1,0 +1,20 @@
+{
+  "name": "syu",
+  "authors": [
+    "Tobe O <thosakwe@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.5.3"
+  }
+}

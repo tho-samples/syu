@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+}
+
+nav {
+    background-color: transparent !important;
+}
+
+#album-cover {
+    float: left;
+    padding-right: 1em;
+}
+
+#album-cover img {
+    height: 10em;
+}
+
+.field label ,.section-footer p, .section-grey p, .section-grey .title {
+    color: white;
+}
+
+.header-item {
+    /*color: #a83244;*/
+    font-weight: bold;
+}
+
+.navbar {,
+    background-color: transparent !important;
+    position: relative;
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding: 1em;
+}
+
+.navbar-menu:not(.is-active) .navbar-start .navbar-item {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.overlay {
+    background-color: #a83244;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.section-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.section-grey {
+    background-image: url('/img/grey.jpg');
+    background-size: contain;
+    position: relative;
+}
+
+.section-grey .overlay {
+    background-color: grey;
+    opacity: 0.75;
+}
+
+.section-main {
+    margin-top: 10em;
+    min-height: 25em;
+    text-align: center;
+}
+
+.section-main .title {
+    font-size: 3em;
+}
+
+.section-main .title, .section-main .subtitle {
+    color: white !important;
+}
