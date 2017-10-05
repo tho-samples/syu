@@ -3,7 +3,7 @@ html, body {
     height: 100%;
 }
 
-body {
+.hero {
     background-image: url('../img/background.jpg');
     background-size: cover;
 }
@@ -21,7 +21,7 @@ nav {
     height: 10em;
 }
 
-.field label ,.section-footer p, .section-grey p, .section-grey .title {
+.field label, .section-footer p, .section-grey p, .section-grey .title, .has-text-centered .title, .has-text-centered .subtitle {
     color: white;
 }
 
@@ -31,7 +31,7 @@ nav {
 }
 
 .navbar {,
-    background-color: transparent !important;
+background-color: transparent !important;
     position: relative;
     z-index: 999;
 }
