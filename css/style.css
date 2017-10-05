@@ -6,6 +6,7 @@ html, body {
 .hero {
     background-image: url('../img/background.jpg');
     background-size: cover;
+    position: relative;
 }
 
 nav {
